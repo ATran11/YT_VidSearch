@@ -1,0 +1,12 @@
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+/* the extra ".item" is due to the default image size being classified with a high
+importance so by adding the ".item" we get more specific with what we want out of the 
+image and therefore overwriting the default */
+.video-item.item img {
+  max-width: 180px;
+}
